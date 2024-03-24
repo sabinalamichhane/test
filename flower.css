@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color:#ffebeb;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgb(196, 119, 119);
+    position: sticky;
+    top:0;
+    /* position: fixed; */
+}
+body{
+    background-color: rgb(224, 15, 15);
+}
+.navitem{
+    display: flex;
+    gap: 6vw;
+}
+.home:hover{
+color: green;
+font-weight: bold;
+transition: 3s ease-in-out 0.2s;
+}
+
+.home,.categories,.shop,.blog{
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    font-family: "Piazzolla",serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+.herosection{
+    height: 450px;
+    width: 100%;
+    background-color:#FFF2F1 ;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.himage{
+    width: 200px;
+    height:200px;
+}
+.herosection .himage img{
+    height: 200px;
+    width: 200px;
+    margin-top: 20%;
+    height: 20vw;
+    width: 20vw;
+    margin-left: 4%;
+
+}
+.herosection .himage img:hover{
+    height: 350px;
+    width: 350px;
+}
+b{
+    color: red;
+    font-size: 40px;
+}
+.hhead{
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "Livvic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.hcontent{
+    font-size: 14px;
+    margin-top: 5%;
+    margin-right: 20%;
+}
+.hbtn{
+    background-color: red;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    font-family: "Piazzolla",serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+   
+}
+.hcontent2{
+    height: 120px;
+    width: 375px;
+    font-family: "Piazzolla",serif;
+    font-weight: 600;
+    font-style: normal;
+} 
+.categorypage{
+    height: 552px;
+    width: 100%;
+    background-color: white;
+    padding-top: 30px;
+   
+}
+.ctext{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Piazzolla",serif;
+    font-weight: 600;
+    font-style: normal;
+} 
+
+.category{
+    display: flex;
+    gap: 3vw;
+    padding-top: 50px;
+    justify-content:center;
+}
+p{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Piazzolla",serif;
+    font-weight: 600;
+    font-style: normal;
+    justify-content: center;
+    margin-left: 5px;
+}
+.bestsellerpage{
+    height: 800px;   
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+   
+}
+.bstext{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Piazzolla",serif;
+    font-weight: 600;
+    font-style: normal;
+} 
+p{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Piazzolla",serif;
+    font-weight: 600;
+    font-style: normal;
+    justify-content: center;
+    margin-left: 5px;
+}
+.addtocart{
+    background-color: red;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-family: "Piazzolla",serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    padding-top: 3px;
+    text-align: center;
+    margin-left: 115px;
+}
+.row1{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+.row2{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+.flower1 .img img,.flower2 .img img,.flower3 .img img{
+    height: 250px;
+    width: 330px;
+    background-color: yellowgreen;
+}
+.flower1,.flower2,.flower3{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Piazzolla",serif;
+    font-weight: 600;
+    font-style: normal;
+    justify-content: center;
+    margin-left: 5px;
+}
+
